@@ -1,6 +1,6 @@
 import bibliopixel
 #causes frame timing information to be output
-bibliopixel.log.setLogLevel(bibliopixel.log.DEBUG)
+bibliopixel.log.setLogLevel(bibliopixel.log.INFO)
 
 from random import randint
 from bibliopixel.colors import color_scale
