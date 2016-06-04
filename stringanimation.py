@@ -151,7 +151,7 @@ class CrazyRainbowBottomUp(BaseStripAnim):
 
     def step(self, amt = 1):
 
-        for i in range(19):
+        for i in range(20):
             #color = (i * (384 / self._size) + self._step) % 384
             #c = colors.wheel_helper(i, self._size, self._step)
             for pixel in rows[i]:
